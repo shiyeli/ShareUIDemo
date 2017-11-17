@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "YeshifuShareUI"
   s.version      = "0.0.4"
-  s.summary      = "A short description of YeshifuShareUI."
+  s.summary      = "CocoaPods组件化实践"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,6 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+  CocoaPods组件化实践，一个简简单单的分享界面。
                    DESC
 
   s.homepage     = "https://github.com/shiyeli/ShareUIDemo"
@@ -90,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "ShareUIDemo/ShareUI", "ShareUI/**/*.{h,m}"
+  s.source_files  = "ShareUIDemo/ShareUIDemo/ShareUI", "ShareUI/**/*.{h,m}"
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -116,7 +117,7 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  # s.framework  = "SomeFramework"
+  s.framework  = "UIKit"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
   # s.library   = "iconv"
