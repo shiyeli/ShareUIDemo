@@ -1,6 +1,7 @@
 # iOS组件化实践（基于CocoaPods）
 
-![](http://upload-images.jianshu.io/upload_images/1271438-175c2ae1f027652d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](http://upload-images.jianshu.io/upload_images/1271438-f193b2dbc8b5251d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/700)
+
 >做iOS开发的同学对这张图片再熟悉不过了，在使用第三库的时候，cocoapods确实给我们带来了极大的方便。那么，我们如何制作自己的pod呢？下面是之前的实践笔记
 
 [参考资料 https://guides.cocoapods.org/](https://guides.cocoapods.org/)
@@ -70,6 +71,8 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
+  # 仓库创建的时候需要选择开源协议为MIT
+  # 如果你忘记选择也不要紧，你在仓库根目录下面创建文件LICENSE,从其他地方复制过来就好，记得修改Copyright所有者信息
   s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
