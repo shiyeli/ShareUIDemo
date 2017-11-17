@@ -9,6 +9,9 @@
 
 [简书原文链接](http://www.jianshu.com/p/c625733f0692)
 
+
+![demo中组件式样](http://upload-images.jianshu.io/upload_images/1271438-c5a8c69289218419.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 ## cocoapods文档提供了两种方法：
 * 方法1 `pod lib create YeshifuShareUI`
 * 方法2  `pod spec create YeshifuShareUI`
