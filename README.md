@@ -6,7 +6,7 @@
 
 [参考资料 https://guides.cocoapods.org/](https://guides.cocoapods.org/)
 
-[ShareUIDemo 链接](https://github.com/shiyeli/ShareUIDemo)
+[cocopods_demo 链接](https://github.com/xander-ye/cocopods_demo)
 
 [简书原文链接](http://www.jianshu.com/p/c625733f0692)
 
@@ -211,6 +211,6 @@ Cocoapods 版本要求1.0.0 +
 `curl -v -H "Acdef6f817a3e4" -H "Content-Type: application/json" -X POST -d '{"email":"422013052@qq.com","name”:"newname","description":"iMac"}' https://trunk.cocoapods.org/api/v1/sessions`
 
 ---
-[我的博客 http://yeli.studio](http://yeli.studio/)
+[我的博客 http://blog.xander-ye.com](http://blog.xander-ye.com)
 
 ![业力实验室微信公众号](http://upload-images.jianshu.io/upload_images/1271438-988671689fcc61df.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
